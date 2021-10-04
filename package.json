@@ -1,0 +1,30 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/besheraj/library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/besheraj/library/issues"
+  },
+  "homepage": "https://github.com/besheraj/library#readme",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "qs": "^6.10.1",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.2",
+    "@types/qs": "^6.9.7"
+  }
+}
